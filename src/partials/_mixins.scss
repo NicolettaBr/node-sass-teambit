@@ -1,0 +1,22 @@
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin link-nav{
+    margin-left: 15px;
+    text-decoration: none;
+    color: $primary_color;
+}
+
+@mixin button-jumbotron{
+    color: white;
+    background-color: #2d3791;
+    border: 1px solid #2d3791;
+    border-radius: 5px;
+    padding: 3px 5px;
+    @include flex;
+    display: inline-block;
+    margin-bottom: 10px;
+}

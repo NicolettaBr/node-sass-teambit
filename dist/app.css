@@ -1,1 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2e2526;
+}
+
+header .logo {
+  width: 10%;
+  padding: 5px 0;
+}
+header .menu {
+  list-style-type: none;
+}
+header .menu li {
+  display: inline-block;
+}
+header .menu li a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #2e2526;
+}
+header .menu li .button {
+  margin-left: 15px;
+  padding: 5px;
+  border: 1px solid #2d3791;
+  border-radius: 5px;
+  color: #2d3791;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menu li .button img {
+  width: 15px;
+  margin-right: 3px;
+}
+header .jumbotron {
+  height: 350px;
+  background-image: url("../img/illustration-main.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-size: 55%;
+  position: relative;
+}
+header .jumbotron .banner {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 40%;
+  color: #2e2526;
+}
+header .jumbotron .banner p {
+  font-size: 15px;
+  padding: 10px 0 30px 0;
+}
+header .jumbotron .banner button {
+  color: white;
+  background-color: #2d3791;
+  border: 1px solid #2d3791;
+  border-radius: 5px;
+  padding: 3px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+header .jumbotron .banner button img {
+  width: 15px;
+  margin-right: 3px;
+}
+header .jumbotron .banner .small-text {
+  font-size: 10px;
+}
