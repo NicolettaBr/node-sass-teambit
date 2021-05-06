@@ -15,12 +15,19 @@ img {
 .container {
   max-width: 70%;
   margin: auto;
+  padding: 30px 0;
+  text-align: center;
+  color: #2e2526;
+}
+
+header .container-header {
+  max-width: 70%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #2e2526;
 }
-
 header .logo {
   width: 10%;
   padding: 5px 0;
@@ -89,4 +96,28 @@ header .jumbotron .banner button img {
 }
 header .jumbotron .banner .small-text {
   font-size: 10px;
+}
+
+.process {
+  background-color: #fcc8bb;
+  padding-bottom: 50px;
+}
+.process .container h3 {
+  font-size: 25px;
+}
+.process .container img {
+  width: 25%;
+}
+.process .container .process-img-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+.process .container .process-img-box .small-text {
+  font-size: 10px;
+  margin: 10px 0;
+}
+.process .container .process-img-box .img-process {
+  width: 30%;
 }
