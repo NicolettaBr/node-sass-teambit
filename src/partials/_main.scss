@@ -12,6 +12,10 @@
             width: 25%;
         }
 
+        .bunny{
+            margin-bottom: 60px;
+        }
+
         .process-img-box{
             @include flex-centred-element;
             margin: 30px 0;
@@ -24,7 +28,93 @@
             .img-process{
                 width: 30%;
 
+                img{
+                    width: 150px;
+                    height: 100px;
+                    padding: 10px;
+                }
+
             }
         }
     }
+}
+
+.usability-box-left{
+    @include flex-divider-left;
+
+    h3{
+        font-size: $subtitle-text;
+    }
+
+    p{
+        font-size: $paragraph-text;
+        padding: 30px 0 20px 0;
+    }
+
+    .slide{
+        width: 50%;
+        margin: 30px 0;
+    }
+
+    .caption{
+        width: 50%;
+        margin: 30px 0;
+
+        .caption-box{
+            width: 50%;
+
+            a{
+                text-decoration: none;
+            }
+
+            img{
+                padding-top: 20px;
+            }
+        }
+        
+    }
+
+}
+
+.usability-box-right{
+    @include flex-divider-right;
+
+    h3{
+        font-size: $subtitle-text;
+    }
+
+    p{
+        font-size: $paragraph-text;
+        padding: 30px 0 20px 0;
+    }
+
+    .slide{
+        width: 50%;
+        margin: 30px 0;
+    }
+
+    .caption{
+        width: 50%;
+        margin: 30px 0;
+        
+        .caption-box{
+            width: 50%;
+            float: right;
+
+            a{
+                text-decoration: none;
+            }
+
+            img{
+                padding-top: 20px;
+            }
+        }
+        
+    }
+
+}
+
+.message{
+    background-color: #fcc8bb;
+    height: 400px;
 }

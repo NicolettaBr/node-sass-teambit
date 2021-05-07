@@ -26,3 +26,16 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@mixin flex-divider-left{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+@mixin flex-divider-right{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+

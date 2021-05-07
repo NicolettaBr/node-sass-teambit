@@ -108,6 +108,9 @@ header .jumbotron .banner .small-text {
 .process .container img {
   width: 25%;
 }
+.process .container .bunny {
+  margin-bottom: 60px;
+}
 .process .container .process-img-box {
   display: flex;
   justify-content: space-around;
@@ -120,4 +123,74 @@ header .jumbotron .banner .small-text {
 }
 .process .container .process-img-box .img-process {
   width: 30%;
+}
+.process .container .process-img-box .img-process img {
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+}
+
+.usability-box-left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.usability-box-left h3 {
+  font-size: 25px;
+}
+.usability-box-left p {
+  font-size: 15px;
+  padding: 30px 0 20px 0;
+}
+.usability-box-left .slide {
+  width: 50%;
+  margin: 30px 0;
+}
+.usability-box-left .caption {
+  width: 50%;
+  margin: 30px 0;
+}
+.usability-box-left .caption .caption-box {
+  width: 50%;
+}
+.usability-box-left .caption .caption-box a {
+  text-decoration: none;
+}
+.usability-box-left .caption .caption-box img {
+  padding-top: 20px;
+}
+
+.usability-box-right {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.usability-box-right h3 {
+  font-size: 25px;
+}
+.usability-box-right p {
+  font-size: 15px;
+  padding: 30px 0 20px 0;
+}
+.usability-box-right .slide {
+  width: 50%;
+  margin: 30px 0;
+}
+.usability-box-right .caption {
+  width: 50%;
+  margin: 30px 0;
+}
+.usability-box-right .caption .caption-box {
+  width: 50%;
+  float: right;
+}
+.usability-box-right .caption .caption-box a {
+  text-decoration: none;
+}
+.usability-box-right .caption .caption-box img {
+  padding-top: 20px;
+}
+
+.message {
+  background-color: #fcc8bb;
+  height: 400px;
 }
