@@ -17,7 +17,7 @@ img {
   margin: auto;
   padding: 30px 0;
   text-align: center;
-  color: #2e2526;
+  color: #7F14D4;
 }
 
 header .container-header {
@@ -26,7 +26,7 @@ header .container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #2e2526;
+  border-bottom: 1px solid #7F14D4;
 }
 header .logo {
   width: 10%;
@@ -41,7 +41,7 @@ header .menu li {
 header .menu li a {
   margin-left: 15px;
   text-decoration: none;
-  color: #2e2526;
+  color: #7F14D4;
 }
 header .menu li .button {
   margin-left: 15px;
@@ -72,7 +72,7 @@ header .jumbotron .banner {
   top: 35px;
   left: 0;
   width: 40%;
-  color: #2e2526;
+  color: #7F14D4;
 }
 header .jumbotron .banner p {
   font-size: 15px;
@@ -99,8 +99,11 @@ header .jumbotron .banner .small-text {
 }
 
 .process {
-  background-color: #fcc8bb;
+  background-color: #0414B3;
   padding-bottom: 50px;
+}
+.process .container:first-child {
+  border-bottom: 1px solid #7F14D4;
 }
 .process .container h3 {
   font-size: 25px;
@@ -133,6 +136,7 @@ header .jumbotron .banner .small-text {
 .usability-box-left {
   display: flex;
   flex-wrap: wrap;
+  color: #7F14D4;
 }
 .usability-box-left h3 {
   font-size: 25px;
@@ -163,6 +167,7 @@ header .jumbotron .banner .small-text {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
+  color: #7F14D4;
 }
 .usability-box-right h3 {
   font-size: 25px;
@@ -191,7 +196,7 @@ header .jumbotron .banner .small-text {
 }
 
 .message {
-  background-color: #fcc8bb;
+  background-color: #0414B3;
   height: 600px;
 }
 .message h2 {
@@ -248,32 +253,33 @@ header .jumbotron .banner .small-text {
 }
 
 footer .container {
-  height: 300px;
+  height: 250px;
   display: flex;
   flex-wrap: wrap;
 }
 footer .container .slogan {
-  width: 30%;
+  width: 40%;
   text-align: left;
   display: flex;
   height: 50px;
 }
 footer .container .slogan img {
-  width: 20%;
+  width: 30%;
   vertical-align: top;
   margin-right: 10px;
 }
 footer .container .slogan span {
-  width: 80%;
+  width: 70%;
   font-size: 15px;
   vertical-align: middle;
+  margin-right: 10px;
 }
 footer .container .slogan .teambit {
   color: #2d3791;
   font-size: 10px;
 }
 footer .container .contacts {
-  width: 70%;
+  width: 60%;
 }
 footer .container .contacts .container-menu {
   display: flex;

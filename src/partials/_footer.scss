@@ -1,25 +1,28 @@
 footer{
     .container{
         
-        height: 300px;
+        height: 250px;
         @include flex-divider-left;
 
         .slogan{
-            width: 30%;
+            width: 40%;
             text-align: left;
             display: flex;
             height: 50px;
 
             img{
-                width: 20%;
+                width: 30%;
                 vertical-align: top;
                 margin-right: 10px;
         
             }
             span{
-                width: 80%;
+                width: 70%;
                 font-size: $paragraph-text;
                 vertical-align: middle;
+                margin-right: 10px;
+                
+                
             }
 
             .teambit {
@@ -29,7 +32,7 @@ footer{
         }
 
         .contacts{
-            width: 70%;
+            width: 60%;
 
             .container-menu{
                 @include flex;

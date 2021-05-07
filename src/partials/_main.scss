@@ -1,6 +1,10 @@
 .process{
     background-color: $background-color;
     padding-bottom: 50px;
+
+    .container:first-child{
+        border-bottom: 1px solid $primary_color;
+    }
     
     .container{
         
@@ -41,6 +45,7 @@
 
 .usability-box-left{
     @include flex-divider-left;
+    color: $primary_color;
 
     h3{
         font-size: $subtitle-text;
@@ -78,6 +83,7 @@
 
 .usability-box-right{
     @include flex-divider-right;
+    color: $primary_color;
 
     h3{
         font-size: $subtitle-text;
