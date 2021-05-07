@@ -1,0 +1,58 @@
+footer{
+    .container{
+        
+        height: 300px;
+        @include flex-divider-left;
+
+        .slogan{
+            width: 30%;
+            text-align: left;
+            display: flex;
+            height: 50px;
+
+            img{
+                width: 20%;
+                vertical-align: top;
+                margin-right: 10px;
+        
+            }
+            span{
+                width: 80%;
+                font-size: $paragraph-text;
+                vertical-align: middle;
+            }
+
+            .teambit {
+                color: $button_color;
+                font-size: $small-text;
+            }
+        }
+
+        .contacts{
+            width: 70%;
+
+            .container-menu{
+                @include flex;
+
+                .menu{
+                    list-style-type: none;
+                    text-align: left;
+                    width: calc ( 100% / 5 );
+
+                    li:first-child{
+                        font-size: $paragraph-text;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                    }
+
+                    li{
+                        margin-bottom: 10px;
+                        font-size: $small-text;
+                    }
+                }
+
+            }
+           
+        }
+    }
+}

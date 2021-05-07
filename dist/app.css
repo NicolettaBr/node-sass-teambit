@@ -246,3 +246,51 @@ header .jumbotron .banner .small-text {
 .message .small-text {
   font-size: 10px;
 }
+
+footer .container {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .container .slogan {
+  width: 30%;
+  text-align: left;
+  display: flex;
+  height: 50px;
+}
+footer .container .slogan img {
+  width: 20%;
+  vertical-align: top;
+  margin-right: 10px;
+}
+footer .container .slogan span {
+  width: 80%;
+  font-size: 15px;
+  vertical-align: middle;
+}
+footer .container .slogan .teambit {
+  color: #2d3791;
+  font-size: 10px;
+}
+footer .container .contacts {
+  width: 70%;
+}
+footer .container .contacts .container-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .contacts .container-menu .menu {
+  list-style-type: none;
+  text-align: left;
+  width: calc 20%;
+}
+footer .container .contacts .container-menu .menu li:first-child {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+footer .container .contacts .container-menu .menu li {
+  margin-bottom: 10px;
+  font-size: 10px;
+}
