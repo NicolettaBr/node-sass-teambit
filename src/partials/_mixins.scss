@@ -12,13 +12,18 @@
 
 @mixin button-jumbotron{
     color: white;
-    background-color: #2d3791;
-    border: 1px solid #2d3791;
+    background-color: $button_color;
+    border: 1px solid $button_color;
     border-radius: 5px;
     padding: 3px 5px;
     @include flex;
     display: inline-block;
     margin-bottom: 10px;
+    img{
+        width: 15px;
+        margin-right: 3px;
+    }
+   
 }
 
 @mixin flex-centred-element{

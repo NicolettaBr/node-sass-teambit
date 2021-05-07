@@ -1,5 +1,5 @@
 .process{
-    background-color: #fcc8bb;
+    background-color: $background-color;
     padding-bottom: 50px;
     
     .container{
@@ -115,6 +115,54 @@
 }
 
 .message{
-    background-color: #fcc8bb;
-    height: 400px;
+    background-color: $background-color;
+    height: 600px;
+
+    h2{
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+
+    img{
+        width: 25px;
+    }
+
+    .box-message{
+        width: 70%;
+        height: 300px;
+        background-color: white;
+        margin: auto;
+        border: 1px solid $button_color;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: left;
+        font-size: $paragraph-text;
+        margin-bottom: 40px;
+
+        p{
+            margin-bottom: 15px;
+        }
+
+        img{
+            width: 50px;
+            margin-right: 15px;
+        }
+
+        .cofounders{
+            display: inline-block;
+            vertical-align: 40%;
+
+            .name-cofounders{
+                color: $button_color;
+            }
+        }
+    }
+
+    button{
+        @include button-jumbotron;
+    }
+
+    .small-text{
+        font-size: $small-text;
+    }
 }
